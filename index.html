@@ -1,74 +1,114 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html>
   <head>
     <meta charset="utf-8">
-    <title>💓Leehk Personal Site</title>
+    <title>Hyeon Keun Lee</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
   </head>
-
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="images/leehk.png" alt="hyeon keun picture"></td>
-        <td>
-          <h1>Lee Hyeon Keun</h1>
-          <p><em>Founder and CTo of <strong><a href="https://www.appbrewery.co/"> The App Brewery</a></strong></em></p>
-          <p>I am an Java and Web Developer. I love♥ coffee and brew my own beers.</p>
-        </td>
-      </tr>
-    </table>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm  Lee HyeonKeun</h1>
+      <h2><p>a <span class="pro">pro</span>grammer.</p></h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-img"src="images/leehk2.png" alt="leehk-img">
+        <h2>Hello.</h2>
+        <p class="intro">HTML, CSS 지식을 활용해 프로필을 작성해 보았습니다. 성장해 큰 산을 볼 줄 아는 사람이 되고 싶어 매일 시간을 투자하며 노력하고 있습니다.</p>
+      </div>
     <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-      <li>The complete Java Development Bootcamp</li>
-      <li>The complete Web Development Bootcamp</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="code-img" src="images/computer.png" alt="code-img">
+          <h3>개발 역량</h3>
+          <table cellspacing="10">
+            <tr>
+              <td>Java, C#, SQL</td>
+              <td>⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>HTML, CSS, JavaScript</td>
+              <td>⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>NoDde js, Linux</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="skill-row">
+          <img class="earth-img" src="images/earth.png" alt="earth-img">
+          <h3 class="h3other">개발 외 역량</h3>
+          <table cellspacing="10">
+            <tr>
+              <td>English</td>
+              <td>⭐️⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>Chinese</td>
+              <td>⭐️⭐️</td>
+            </tr>
+            <tr>
+              <td>MS office</td>
+              <td>⭐️⭐️⭐️</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    <h2>Work Experience.</h2>
+    <table class="work-table" cellspacing="20">
       <thead>
         <tr>
           <th>Dates</th>
-          <th>Work</th>
+          <th>Project Name</th>
+          <th>Content</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>2017-2019</td>
-          <td>CHOT Project</td>
+          <td>2019.06-2020.~</td>
+          <td>CTO Project</td>
+          <td><span class="pro">(현업)</span> Display 생산 공장의 MES 시스템 구축: 생산, 반송 및 모니터링 시스템 FullStack 개발 및 설계</td>
         </tr>
         <tr>
-          <td>2019-</td>
-          <td>CTO Project</td>
+          <td>2017.09-2019.05</td>
+          <td>CHOT Project</td>
+          <td><span class="pro">(현업)</span> Display 생산 공장의 MES 시스템 구축: 반송 및 모니터링 시스템 FullStack 개발 담당 및 운영</td>
+        </tr>
+        <tr>
+          <td>2017.05-2017.06</td>
+          <td>Rebicycle</td>
+          <td><span class="pro">(교육생)</span> 자전거 공유 시스템 개발: 개발자 교육과정에서 팀 프로젝트를 진행함</td>
+        </tr>
+        <tr>
+          <td>2016.01-2016.05</td>
+          <td>TSS</td>
+          <td><span class="pro">(대학생)</span> 팀 구성 지원 시스템 개발: 학부 연구생 시절 연구과제를 수행함</td>
         </tr>
       </tbody>
       <tfoot>
       </tfoot>
     </table>
+    </div>
     <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Java</td>
-        <td>⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>C#</td>
-        <td>⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>Oracle</td>
-        <td>⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>Linux</td>
-        <td>⭐️⭐️</td>
-      </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">My hobbies</a>
-    <a href="contact-me.html">Contact me</a>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>연락바랍니다.</h3>
+      <p class="contact-message">아래 LinkedIn와 개인 Blog를 링크해두었습니다. (Email: montingy@naver.com)</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/hyeonkeun-lee-331974189/">LinkedIn</a>
+      <a class="footer-link" href="https://blog.naver.com/montingy">Blog</a>
+      <p class="copyright">© 2020 이현근 LeeHyeonKeun.</p>
+    </div>
   </body>
-
 </html>
